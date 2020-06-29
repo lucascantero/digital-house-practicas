@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/bg-body.png");
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  padding: 5%;
+}
+
+.logo {
+  display: block;
+  margin: 15px auto;
+  border-radius: 50%;
+}
+
+button li {
+  list-style: none;
+}
+
+button {
+  background-color: gray;
+  width: 16.3%;
+  height: 30px;
+  border: none;
+}
+
+.main-nav {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  display: block;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.photo-container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 10;
+}
+
+.photo {
+  width: 100%;
+}
+
+.product {
+  position: relative;
+}

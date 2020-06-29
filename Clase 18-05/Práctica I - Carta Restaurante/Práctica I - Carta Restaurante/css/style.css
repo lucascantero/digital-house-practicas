@@ -1,0 +1,37 @@
+main {
+  width: 980px;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  border: 1px;
+}
+
+ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.platos {
+  font-weight: bold;
+}
+
+nav {
+  float: left;
+  width: 300px;
+  padding: 15px;
+}
+
+section {
+  float: left;
+  width: 600px;
+  padding: 15px;
+  border-left: 1px;
+}
+
+.vl {
+  border-left: 1px solid gray;
+  height: 500px;
+  float: left;
+}
