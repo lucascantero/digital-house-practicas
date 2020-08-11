@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body style = "background-color: <%= title%>">
+    <form action="/" method="post">
+      <select name="color">
+        <option id="blue" value ="blue">blue</option>
+        <option id="yellowe" value ="yellow">yellow</option>
+        <option id="blue" value = "blue">blue</option>
+      </select>
+      <input type="checkbox" name="check" value="true">
+      <label> Recordar color</label>
+      <button>Enviar</button>
+    </form>
+    <h2>Elegiste el color <%= title %><h2></h2>
+  </body>
+</html>
